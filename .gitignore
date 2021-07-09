@@ -1,2 +1,5 @@
-./node_modules
-./src/scratch
+**/node_modules
+**/node_modules_1
+**/scratch
+**/scratch_1
+
