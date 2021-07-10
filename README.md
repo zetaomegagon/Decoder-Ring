@@ -18,7 +18,7 @@ The main componenet of the app are the following ciphers:
 3. and the `Substitution Cipher`.
 
 ### Ceasar Cipher
-![Ceasar Cipher Graphic](https://en.wikipedia.org/wiki/Caesar_cipher#/media/File:Caesar_cipher_left_shift_of_3.svg)
+![Ceasar Cipher Graphic](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/800px-Caesar_cipher_left_shift_of_3.svg.png)
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher):
 ```
