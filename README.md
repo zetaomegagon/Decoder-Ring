@@ -96,7 +96,7 @@ This application uses a simple substitution cipher, consisting of the English la
 
 For encoding English language alphabet *letters* are mapped to the substitution alphabet *characters*. The opposite is true of decoding.
 
-Since the substitution alphabet can contain any characters, punctuation in the input string is not preserved.
+Since the substitution alphabet can contain any characters, punctuation (excluding spaces) in the input string is not preserved.
 
 ##### Examples
 ```
