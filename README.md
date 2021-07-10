@@ -1,4 +1,4 @@
-# Thinkful Local Library Project
+# Thinkful Decoder Ring Project
 
 ## Contents
 1. [About](https://github.com/zetaomegagon/thinkful-decoder-ring#about-this-project)
@@ -13,12 +13,12 @@ This project showcases an app providing three methods of {en,de}crypting a messa
 ## Overview
 
 The main componenet of the app are the following ciphers:
-1. The `Ceasar Cipher`,
+1. The `Caesar Cipher`,
 2. The `Polybius Square`,
 3. and the `Substitution Cipher`.
 
-### Ceasar Cipher
-![Ceasar Cipher Graphic](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/800px-Caesar_cipher_left_shift_of_3.svg.png)
+### Caesar Cipher
+![Caesar Cipher Graphic](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/800px-Caesar_cipher_left_shift_of_3.svg.png)
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher):
 
@@ -27,7 +27,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Caesar_cipher):
 > The method is named after Julius Caesar, who used it in his private correspondence.
 
 #### Functionality
-For the purposes of this application, the `ceasar()` function takes an *input string*, an *integer value*, and an *optional boolean* value used to initiate an encoding or decoding of the input message. This value defaults to `true`, if no value is passed, indicating that the function should *encode*.
+For the purposes of this application, the `caesar()` function takes an *input string*, an *integer value*, and an *optional boolean* value used to initiate an encoding or decoding of the input message. This value defaults to `true`, if no value is passed, indicating that the function should *encode*.
 
 Given a starting poing of `m` on the "alphabet line", if the integer is greater than zero; then the shift moves forward toward `z`. If the integer is less than zero; then the shift is toward `a`.
 
@@ -40,15 +40,15 @@ Of course the our function takes care of this with the *encode* parameter argume
 Examples:
 ```
 --encoding--
-ceasar("abc",1) -> "bcd"
-ceasar("abc",1,true) -> "bcd"
+caesar("abc",1) -> "bcd"
+caesar("abc",1,true) -> "bcd"
 
 --decoding--
 caesar("bcd",-1) -> "abc"
 caesar("bcd",1,false) -> "abc"
 ```
 
-This function is located at [/src/ceasar.js](https://github.com/zetaomegagon/thinkful-decoder-ring/blob/main/src/caesar.js).
+This function is located at [/src/caesar.js](https://github.com/zetaomegagon/thinkful-decoder-ring/blob/main/src/caesar.js).
 
 ### Polybius Square
 ![Polybius Square Coordinate Table](https://1.bp.blogspot.com/-95Fb1cqkZpY/XUhlzx8Mx7I/AAAAAAAAwGs/qzcth0WN9zUNYvIKCE3abIH9S21icPHbACPcBGAYYCw/s1600/Polybius%2BSquare%2BCipher%2BKey.png)
