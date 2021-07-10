@@ -3,6 +3,9 @@
 ## Contents
 1. [About](https://github.com/zetaomegagon/thinkful-decoder-ring#about-this-project)
 2. [Overview](https://github.com/zetaomegagon/thinkful-decoder-ring#overview)
+   a. [Caesar Cipher](https://github.com/zetaomegagon/thinkful-decoder-ring#caesar-cipher)
+   b. [Polybius Square Cipher](https://github.com/zetaomegagon/thinkful-decoder-ring#polybius-square-cipher)
+   c. [Subsitution Cipher](https://github.com/zetaomegagon/thinkful-decoder-ring#substitution-cipher)
 3. [Screenshots](https://github.com/zetaomegagon/thinkful-decoder-ring#screenshots)
 4. [Installation](https://github.com/zetaomegagon/thinkful-decoder-ring#installation)
 
@@ -50,7 +53,7 @@ caesar("bcd",1,false) -> "abc"
 
 This function is located at [/src/caesar.js](https://github.com/zetaomegagon/thinkful-decoder-ring/blob/main/src/caesar.js).
 
-### Polybius Square
+### Polybius Square Cipher
 ![Polybius Square Coordinate Table](https://1.bp.blogspot.com/-95Fb1cqkZpY/XUhlzx8Mx7I/AAAAAAAAwGs/qzcth0WN9zUNYvIKCE3abIH9S21icPHbACPcBGAYYCw/s1600/Polybius%2BSquare%2BCipher%2BKey.png)
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Polybius_square#Basic_form):
@@ -97,7 +100,7 @@ substitution("Zetaomegagon rocks!","qaz!wsx@edc#rfv$tgb^yhn&uj") -> "jw^qvrwxqxv
 substitution("Zetaomegagon rocks!","qaz!wsx@edc#rfv$tgb^yhn&uj",encode) -> "jw^qvrwxqxvf gvzcb"
 
 --decode--
-substitution("jw^qvrwxqxvf gvzcb","qaz!wsx@edc#rfv$tgb^yhn&uj",false) -> "zetaomegagon rocks!"
+substitution("jw^qvrwxqxvf gvzcb","qaz!wsx@edc#rfv$tgb^yhn&uj",false) -> "zetaomegagon rocks"
 
 ```
 
