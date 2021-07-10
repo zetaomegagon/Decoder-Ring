@@ -3,9 +3,9 @@
 ## Contents
 1. [About](https://github.com/zetaomegagon/thinkful-decoder-ring#about-this-project)
 2. [Overview](https://github.com/zetaomegagon/thinkful-decoder-ring#overview)
-   a. [Caesar Cipher](https://github.com/zetaomegagon/thinkful-decoder-ring#caesar-cipher)
-   b. [Polybius Square Cipher](https://github.com/zetaomegagon/thinkful-decoder-ring#polybius-square-cipher)
-   c. [Subsitution Cipher](https://github.com/zetaomegagon/thinkful-decoder-ring#substitution-cipher)
+	- [Caesar Cipher](https://github.com/zetaomegagon/thinkful-decoder-ring#caesar-cipher)
+	- [Polybius Square Cipher](https://github.com/zetaomegagon/thinkful-decoder-ring#polybius-square-cipher)
+	- [Subsitution Cipher](https://github.com/zetaomegagon/thinkful-decoder-ring#substitution-cipher)
 3. [Screenshots](https://github.com/zetaomegagon/thinkful-decoder-ring#screenshots)
 4. [Installation](https://github.com/zetaomegagon/thinkful-decoder-ring#installation)
 
@@ -105,6 +105,9 @@ substitution("jw^qvrwxqxvf gvzcb","qaz!wsx@edc#rfv$tgb^yhn&uj",false) -> "zetaom
 ```
 
 ## Screenshots
+![]()
+![]()
+![]()
 
 ## Installation
 
@@ -112,7 +115,7 @@ substitution("jw^qvrwxqxvf gvzcb","qaz!wsx@edc#rfv$tgb^yhn&uj",false) -> "zetaom
 
 Installing the library dashboard requires the following to be done:
 1. cloning this repository locally.
-2. installing `nvm` ([posix](https://github.com/Neilpang/nvm) | [windows](https://duckduckgo.com/?kae=d&kn=1&kak=-1&kaq=-1&kp=-2&kah=wt-wt&k5=1&kw=w&kax=-1&kau=-1&kaj=m&k1=-1&kav=1&ku=1&kao=-1&kap=-1&kk=-1&kl=us-en&kad=us-en&kg=p&kd=-1&kam=osm&q=installing+nvm+on+windows)).
+2. installing `nvm` ([posix](https://github.com/Neilpang/nvm)|[windows](https://duckduckgo.com/?kae=d&kn=1&kak=-1&kaq=-1&kp=-2&kah=wt-wt&k5=1&kw=w&kax=-1&kau=-1&kaj=m&k1=-1&kav=1&ku=1&kao=-1&kap=-1&kk=-1&kl=us-en&kad=us-en&kg=p&kd=-1&kam=osm&q=installing+nvm+on+windows)).
 3. using `nvm` to install `node`.
 
 ### The install
