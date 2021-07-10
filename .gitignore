@@ -1,5 +1,9 @@
-# Exclude node modules
+# Exclude node modules & package lock file.
 **/node_modules
+**/package-lock.json
+
+# Exclude qualified assesment token
+**/qualified-attach.json
 
 # Exlcude personal test files
 **/scratch
