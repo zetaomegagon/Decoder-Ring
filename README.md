@@ -37,6 +37,17 @@ Encoding and decoding are a matter of taking the inverse of the integer based on
 
 Of course the our function takes care of this with the *encode* parameter argument, so that we don't have to remeber if our shift was negative or positive in the first place. *You do need to remember the shift value!*
 
+Examples:
+```
+--encoding--
+ceasar("abc",1) -> "bcd"
+ceasar("abc",1,true) -> "bcd"
+
+--decoding--
+caesar("bcd",-1) -> "abc"
+caesar("bcd",1,false) -> "abc"
+```
+
 This function is located at [/src/ceasar.js](https://github.com/zetaomegagon/thinkful-decoder-ring/blob/main/src/caesar.js).
 
 ### Polybius Square
@@ -47,11 +58,10 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Polybius_square#Basic_form):
 > According to Polybius' Histories, the device was invented by Cleoxenus and Democleitus, and further developed by Polybius himself. The device partitioned the alphabet into five tablets with five letters each (except for the last one with only four). There are no surviving tablets from antiquity. Letters are represented by two numbers from one to five, allowing the representation of 25 characters using only 5 numeric symbols.
 > 
 > Each letter is then represented by its coordinates in the grid. For example, "BAT" becomes "12 11 44". The 26 letters of the Latin/English alphabet do not fit in a 5 × 5 square, two letters must be combined (usually I and J as above, though C and K is an alternative).
-
-### Substitution Cipher
-
+#### Functionality
 In this application the the `polybius()` function takes an input 
-
+### Substitution Cipher
+#### Functionality
 ## Screenshots
 
 ## Installation

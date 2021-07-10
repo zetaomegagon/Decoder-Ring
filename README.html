@@ -67,6 +67,17 @@
 
 <p>Of course the our function takes care of this with the <em>encode</em> parameter argument, so that we don&#8217;t have to remeber if our shift was negative or positive in the first place. <em>You do need to remember the shift value!</em></p>
 
+<p>Examples:</p>
+
+<pre><code>--encoding--
+ceasar(&quot;abc&quot;,1) -&gt; &quot;bcd&quot;
+ceasar(&quot;abc&quot;,1,true) -&gt; &quot;bcd&quot;
+
+--decoding--
+caesar(&quot;bcd&quot;,-1) -&gt; &quot;abc&quot;
+caesar(&quot;bcd&quot;,1,false) -&gt; &quot;abc&quot;
+</code></pre>
+
 <p>This function is located at <a href="https://github.com/zetaomegagon/thinkful-decoder-ring/blob/main/src/caesar.js">/src/ceasar.js</a>.</p>
 
 <h3 id="polybiussquare">Polybius Square</h3>
@@ -84,9 +95,13 @@
 <p>Each letter is then represented by its coordinates in the grid. For example, &#8220;BAT&#8221; becomes &#8220;12 11 44&#8221;. The 26 letters of the Latin/English alphabet do not fit in a 5 × 5 square, two letters must be combined (usually I and J as above, though C and K is an alternative).</p>
 </blockquote>
 
-<h3 id="substitutioncipher">Substitution Cipher</h3>
+<h4 id="functionality">Functionality</h4>
 
 <p>In this application the the <code>polybius()</code> function takes an input</p>
+
+<h3 id="substitutioncipher">Substitution Cipher</h3>
+
+<h4 id="functionality">Functionality</h4>
 
 <h2 id="screenshots">Screenshots</h2>
 
