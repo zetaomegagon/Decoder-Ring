@@ -46,16 +46,15 @@
 
 <p>From <a href="https://en.wikipedia.org/wiki/Caesar_cipher">Wikipedia</a>:</p>
 
-<pre><code>In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques.
+<blockquote>
+<p>In cryptography, a Caesar cipher, also known as Caesar&#8217;s cipher, the shift cipher, Caesar&#8217;s code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on.</p>
 
-It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on.
-
-The method is named after Julius Caesar, who used it in his private correspondence.
-</code></pre>
+<p>The method is named after Julius Caesar, who used it in his private correspondence.</p>
+</blockquote>
 
 <h4 id="functionality">Functionality</h4>
 
-<p>For the purposes of this application, the <code>ceasar()</code> function takes an input string, an integer value, and an optional boolean value (which defaults to <code>true</code> if none is passed).</p>
+<p>For the purposes of this application, the <code>ceasar()</code> function takes an <em>input string</em>, an <em>integer value</em>, and an <em>optional boolean</em> value used to initiate an encoding or decoding of the input message. This value defaults to <code>true</code>, if no value is passed, indicating that the function should <em>encode</em>.</p>
 
 <p>Given a starting poing of <code>m</code> on the &#8220;alphabet line&#8221;, if the integer is greater than zero; then the shift moves forward toward <code>z</code>. If the integer is less than zero; then the shift is toward <code>a</code>.</p>
 
@@ -66,7 +65,7 @@ The method is named after Julius Caesar, who used it in his private corresponden
 <li>To <em>decode</em>, give the <em>encoded</em> message and the inverse of the shift</li>
 </ul>
 
-<p>Of course the `ceasar()</p>
+<p>Of course the our function takes care of this with the <em>encode</em> parameter argument, so that we don&#8217;t have to remeber if our shift was negative or positive in the first place. <em>You do need to remember the shift value!</em></p>
 
 <p>This function is located at <a href="https://github.com/zetaomegagon/thinkful-decoder-ring/blob/main/src/caesar.js">/src/ceasar.js</a>.</p>
 
@@ -79,10 +78,11 @@ The method is named after Julius Caesar, who used it in his private corresponden
 
 <p>From <a href="https://en.wikipedia.org/wiki/Polybius_square#Basic_form">Wikipedia</a>:</p>
 
-<pre><code>According to Polybius' Histories, the device was invented by Cleoxenus and Democleitus, and further developed by Polybius himself. The device partitioned the alphabet into five tablets with five letters each (except for the last one with only four). There are no surviving tablets from antiquity. Letters are represented by two numbers from one to five, allowing the representation of 25 characters using only 5 numeric symbols.
+<blockquote>
+<p>According to Polybius' Histories, the device was invented by Cleoxenus and Democleitus, and further developed by Polybius himself. The device partitioned the alphabet into five tablets with five letters each (except for the last one with only four). There are no surviving tablets from antiquity. Letters are represented by two numbers from one to five, allowing the representation of 25 characters using only 5 numeric symbols.</p>
 
-Each letter is then represented by its coordinates in the grid. For example, &quot;BAT&quot; becomes &quot;12 11 44&quot;. The 26 letters of the Latin/English alphabet do not fit in a 5 × 5 square, two letters must be combined (usually I and J as above, though C and K is an alternative).
-</code></pre>
+<p>Each letter is then represented by its coordinates in the grid. For example, &#8220;BAT&#8221; becomes &#8220;12 11 44&#8221;. The 26 letters of the Latin/English alphabet do not fit in a 5 × 5 square, two letters must be combined (usually I and J as above, though C and K is an alternative).</p>
+</blockquote>
 
 <h3 id="substitutioncipher">Substitution Cipher</h3>
 
